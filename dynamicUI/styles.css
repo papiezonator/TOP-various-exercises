@@ -1,9 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .main {
-    width: auto;
+    width: max-content;
 }
 .child {
     visibility: hidden;
     background-color: aquamarine;
-    width: auto;
+    width: max-content;
 }
 
