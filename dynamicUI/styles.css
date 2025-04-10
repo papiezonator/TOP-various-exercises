@@ -1,4 +1,9 @@
+.main {
+    width: auto;
+}
 .child {
+    visibility: hidden;
     background-color: aquamarine;
+    width: auto;
 }
 
