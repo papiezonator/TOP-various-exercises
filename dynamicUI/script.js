@@ -21,5 +21,31 @@ main.addEventListener("click", () => {
     
 })
 
+const carouselDisplay = document.querySelector(".carousel-display");
+
+const right = () => {
+    const btn = document.querySelector("#right");
+    btn.addEventListener("click", () => {
+        //slideRight();
+        console.log("test");
+        carouselDisplay.scrollLeft += 480;
+        return;
+    })
+}
+
+const left = () => {
+    const btn = document.querySelector("#left");
+    btn.addEventListener("click", () => {
+        //lideLeft();
+        carouselDisplay.scrollLeft -= 480;
+        console.log("test");
+        return;
+    })
+}
+
+
+
+left();
+right();
 //console.log(parent.childNodes[1]);
 
