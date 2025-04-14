@@ -12,3 +12,29 @@
     width: max-content;
 }
 
+
+.carousel-wrapper {
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+}
+
+.carousel-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid green;
+    width: 480px;
+    height: 272px;
+    
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+}
+
